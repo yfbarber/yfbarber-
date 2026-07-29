@@ -78,6 +78,11 @@ p{
     width:385px;
     max-width:90%;
     margin-bottom:35px;
+    filter:
+        drop-shadow(0 0 6px #ffffff)
+        drop-shadow(0 0 12px #ff0000)
+        drop-shadow(0 0 24px #ff0000);
+    animation: logoGlow 2s ease-in-out infinite alternate;
 }
 
 .servicios{
@@ -177,5 +182,20 @@ p{
             0 0 18px #ff3333,
             0 0 35px #ff0000,
             0 0 60px #ff0000;
+    }
+}
+@keyframes logoGlow{
+    from{
+        filter:
+            drop-shadow(0 0 4px #ffffff)
+            drop-shadow(0 0 10px #ff0000)
+            drop-shadow(0 0 20px #ff0000);
+    }
+
+    to{
+        filter:
+            drop-shadow(0 0 8px #ffffff)
+            drop-shadow(0 0 18px #ff0000)
+            drop-shadow(0 0 35px #ff0000);
     }
 }
