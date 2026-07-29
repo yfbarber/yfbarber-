@@ -62,3 +62,10 @@ section p{
     font-size:20px;
     margin:15px 0;
 }
+.portada{
+    width:100%;
+    max-width:900px;
+    display:block;
+    margin:30px auto;
+    border-radius:15px;
+}
