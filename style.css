@@ -69,3 +69,9 @@ section p{
     margin:30px auto;
     border-radius:15px;
 }
+.portada{
+  width:100%;
+  max-width:700px;
+  border-radius:12px;
+  margin-top:20px;
+}
