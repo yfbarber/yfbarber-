@@ -6,8 +6,7 @@ body{
 }
 
 .hero{
-    background:url("IMG-20251003-WA0008.jpg") center top/contain no-repeat;
-background-color:#000;
+    background:#000;
     height:100vh;
     display:flex;
     justify-content:center;
@@ -66,4 +65,9 @@ h2{
 
 p{
     font-size:18px;
+}
+.logo{
+    width:220px;
+    max-width:70%;
+    margin-bottom:20px;
 }
