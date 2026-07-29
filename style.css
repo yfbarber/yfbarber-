@@ -6,7 +6,8 @@ body{
 }
 
 .hero{
-    background:url("IMG-20251003-WA0008.jpg") center center/cover no-repeat;
+    background:url("IMG-20251003-WA0008.jpg") center top/contain no-repeat;
+background-color:#000;
     height:100vh;
     display:flex;
     justify-content:center;
