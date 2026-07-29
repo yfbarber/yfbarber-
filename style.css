@@ -27,15 +27,21 @@ body{
 }
 
 .hero h1{
-    font-size:46px;
-    color:#fff;
-    margin:0;
+    font-size:44px;
+    color:#ffffff;
+    margin:20px 0 10px;
     letter-spacing:4px;
+    text-shadow:
+        0 0 5px #ff0000,
+        0 0 10px #ff0000,
+        0 0 20px #d40000,
+        0 0 40px #d40000;
+    animation: neonGlow 2s infinite;
 }
 
 .eslogan{
     font-size:24px;
-    margin:20px 0 35px;
+    margin:15px 0 40px;
     font-style:italic;
 }
 
@@ -67,9 +73,9 @@ p{
     font-size:18px;
 }
 .logo{
-    width:350px;
-    max-width:85%;
-    margin-bottom:15px;
+    width:385px;
+    max-width:90%;
+    margin-bottom:35px;
 }
 
 .servicios{
@@ -143,4 +149,21 @@ p{
 
 .boton2:hover{
     background:#ff0000;
+}
+@keyframes neonGlow{
+    0%,100%{
+        text-shadow:
+            0 0 5px #ff0000,
+            0 0 10px #ff0000,
+            0 0 20px #d40000,
+            0 0 40px #d40000;
+    }
+
+    50%{
+        text-shadow:
+            0 0 8px #ff3333,
+            0 0 18px #ff3333,
+            0 0 35px #ff0000,
+            0 0 60px #ff0000;
+    }
 }
