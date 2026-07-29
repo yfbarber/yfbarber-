@@ -28,15 +28,17 @@ body{
 
 .hero h1{
     font-size:44px;
-    color:#fff;
+    color:#ffd6d6;
     margin:20px 0 10px;
     letter-spacing:4px;
     text-shadow:
+        0 0 5px #ff0000,
         0 0 10px #ff0000,
         0 0 20px #ff0000,
         0 0 40px #ff0000,
-        0 0 60px #ff0000;
-    animation: neonGlow 2s infinite;
+        0 0 80px #ff0000,
+        0 0 120px #ff0000;
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
 }
 
 .eslogan{
@@ -151,13 +153,23 @@ p{
     background:#ff0000;
 }
 @keyframes neonGlow{
-    0%,100%{
+    from{
         text-shadow:
             0 0 5px #ff0000,
             0 0 10px #ff0000,
-            0 0 20px #d40000,
-            0 0 40px #d40000;
+            0 0 20px #ff0000,
+            0 0 40px #ff0000;
     }
+
+    to{
+        text-shadow:
+            0 0 10px #ff0000,
+            0 0 20px #ff0000,
+            0 0 40px #ff0000,
+            0 0 80px #ff0000,
+            0 0 120px #ff0000;
+    }
+
 
     50%{
         text-shadow:
