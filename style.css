@@ -48,3 +48,17 @@ a:hover{
 .boton:hover{
     background:#ff0000;
 }
+section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+h2{
+    color:#d40000;
+    font-size:32px;
+}
+
+section p{
+    font-size:20px;
+    margin:15px 0;
+}
