@@ -46,20 +46,41 @@ body{
     margin:15px 0 40px;
     font-style:italic;
 }
-
 .boton{
+    display:inline-block;
     background:#d40000;
-    color:#fff;
+    color:white;
     text-decoration:none;
     padding:18px 40px;
     border-radius:40px;
     font-size:22px;
     font-weight:bold;
+    transition:.3s;
+    animation: neonBoton 2s infinite alternate;
 }
 
 .boton:hover{
     background:#ff0000;
 }
+
+@keyframes neonBoton{
+    from{
+        box-shadow:
+            0 0 8px #fff,
+            0 0 15px #fff,
+            0 0 25px #ff0000,
+            0 0 45px #ff0000;
+    }
+
+    to{
+        box-shadow:
+            0 0 15px #fff,
+            0 0 30px #fff,
+            0 0 45px #ff0000,
+            0 0 70px #ff0000;
+    }
+}
+
 
 section{
     padding:60px 20px;
@@ -78,11 +99,6 @@ p{
     width:385px;
     max-width:90%;
     margin-bottom:35px;
-    filter:
-        drop-shadow(0 0 6px #ffffff)
-        drop-shadow(0 0 12px #ff0000)
-        drop-shadow(0 0 24px #ff0000);
-    animation: logoGlow 2s ease-in-out infinite alternate;
 }
 
 .servicios{
