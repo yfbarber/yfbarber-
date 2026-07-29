@@ -75,3 +75,34 @@ section p{
   border-radius:12px;
   margin-top:20px;
 }
+.eslogan{
+    font-size:24px;
+    color:white;
+    margin:20px 0;
+    font-style:italic;
+}
+
+.portada{
+    width:90%;
+    max-width:400px;
+    border-radius:15px;
+    margin:25px auto;
+    display:block;
+    box-shadow:0 0 20px rgba(255,0,0,.4);
+}
+
+.boton{
+    display:inline-block;
+    margin-top:25px;
+    background:#d40000;
+    color:white;
+    text-decoration:none;
+    padding:18px 40px;
+    border-radius:40px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.boton:hover{
+    background:#ff0000;
+}
